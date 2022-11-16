@@ -1,0 +1,97 @@
+/* header */
+ul {
+  list-style: none;
+  margin: 0;
+  padding:0;
+}
+.header {
+  align-items: center;
+  background-color: #f3f3f3;
+  display: flex;
+  padding: 15px 24px;
+}
+.header_logo {
+  width: 148px;
+}
+
+.header_inner {
+  margin-left: auto;
+}
+.header_nav {
+  display: flex;
+}
+.header_sns {
+  display: flex;
+  gap: 16px;
+}
+/* end of header */
+
+/* section introduce */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+.introduce_title {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 10px;
+}
+.introduce_title_h2 {
+  color: #0000ff;
+  text-align: center;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+.introduce_picture {
+  margin: 0 auto;
+  text-align: center;
+  width: 50%;
+  height: 50%;
+}
+.introduce_picture img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: 0% 5%;
+}
+.name {
+  text-align: center;
+  font-size: 25px;
+  margin: 5px 0 15px 0;
+}
+.introduce_table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 40%;
+  background-color: #ddd;
+}
+.introduce_table tr {
+  /* border-bottom: solid 1px #ddd; */
+  cursor: pointer;
+}
+.introduce_table tr:hover{
+  background-color: #d4f0fd;
+}
+.introduce_table th:after {
+  display: block;
+  content: "";
+  width: 30px;
+  height: 2px;
+  background-color: #677cb4;
+  position: absolute;
+  top:calc(50% - 1px);
+  right:-15px;
+}
+.introduce_table th,.introduce_table td{
+  position: relative;
+  text-align: center;
+  width: 15%;
+  padding: 15px 0;
+}
