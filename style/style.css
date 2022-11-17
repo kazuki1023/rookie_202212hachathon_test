@@ -85,13 +85,47 @@ h6 {
   width: 50%;
   height: 50%;
 }
-.introduce_picture img {
+.image_box img {
   width: 300px;
   height: 300px;
   border-radius: 50%;
   object-fit: cover;
   object-position: 0% 5%;
 }
+/* imgのアニメーション */
+.image_box {
+  width: 350px;
+  display: block;
+}
+
+.hover {
+  overflow: hidden;
+  position: relative;
+}
+
+.hover img {
+  display: block;
+  transition: .3s;
+}
+
+.hover .img_1 {
+  position: relative;
+  z-index: 2;
+}
+
+.hover .img_2 {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.hover:hover .img_1 {
+  opacity: 0;
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+/* imgのアニメーション 終わり */
 .name {
   text-align: center;
   font-size: 25px;

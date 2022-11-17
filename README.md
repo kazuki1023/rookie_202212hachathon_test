@@ -27,13 +27,13 @@
 
 ### 自己紹介　でやりたいこと
 - [x] introduceと見出しをつける
-- [ ] introduceという見出しにintroduceの文字を挟むような線を引く（境界線）
+- [ ] introduceという見出しにintroduceの文字を挟むような線を引く（境界線）(疑似要素で作ってください。)
 - [x] 見出しの下に、日本語で自己紹介を小見出しと書く。
 - [x] 各見出しを左右中央に持ってくる。
 - [x] 自分の写真の挿入
 - [x] 写真を丸くする
-- [ ] 写真をホバーした時にアニメーション（岳、託した）
-- [ ] 写真をホバーした時に、写真が変わる[参考url](https://drive.google.com/drive/folders/1OgggL_f8FQfpbDzP8-8OPTxoGBxEjnnV)
+- [x] 写真をホバーした時にアニメーション[参考サイト](https://apricot-design.com/staffblog/css-hover-idea-image/)
+- [x] 写真をホバーした時に、写真が変わる[posse②の参考url](https://drive.google.com/drive/folders/1OgggL_f8FQfpbDzP8-8OPTxoGBxEjnnV)
 - [x] 写真の下に自分の名前を入れる
 - [x] 名前を中央に持ってくる
 - [x] テーブルで大学、学部、趣味、誕生日、他のサークル、バイトを作成
@@ -50,7 +50,7 @@
 - [ ] posseにはいったきっかけを書く枠組みを作成
 - [ ] その枠組みの中に背景画像を挿入
 - [ ] 背景画像に半透明のフィルターをかける。
-- [ ] 
+- [ ]
 
 ### posseの一押しポイントの紹介
 - [ ] posseの一押しポイントと見出しをつける
