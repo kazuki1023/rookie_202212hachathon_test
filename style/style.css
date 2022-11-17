@@ -8,10 +8,14 @@ ul {
   align-items: center;
   background-color: #f3f3f3;
   display: flex;
-  padding: 15px 24px;
+  padding: 15px 0px;
+  z-index: 100;
+  position: fixed;
+  width: 100%;
 }
 .header_logo {
   width: 148px;
+  margin-left: ;
 }
 
 .header_inner {
@@ -20,12 +24,27 @@ ul {
 .header_nav {
   display: flex;
 }
+.header_nav_instagram,
+.header_nav_twitter {
+  border: solid 1px black;
+  border-radius: 50%;
+  width: 30px;
+}
+.header_nav_sns_img {
+  margin-top: 2px;
+  margin-left: 2px;
+}
+
+
 .header_sns {
   display: flex;
   gap: 16px;
 }
 /* end of header */
-
+/* main */
+.main {
+  height: 1000px;
+}
 /* section introduce */
 h1,
 h2,
