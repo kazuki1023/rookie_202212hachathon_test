@@ -179,3 +179,12 @@ tr:nth-child(even) {
   width: 15%;
   padding: 15px 0;
 }
+
+/* why なぜ私はposseに？ */
+.why_title_h1,
+.why_title_h2 {
+  text-align: center;
+}
+.why_title_h2 {
+  color: #0000ff;
+}
