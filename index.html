@@ -5,8 +5,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=, initial-scale=1.0">
   <title>新人ハッカソン製作物見本</title>
-  <link rel="stylesheet" href="normalize.css">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./style/normalize.css">
+  <link rel="stylesheet" href="./style/style.css">
 </head>
 <body>
   <header class="header">
@@ -17,10 +17,14 @@
       <nav class="header_nav">
         <ul class="header_sns">
           <li class="header_nav_instagram">
-            <img src="img/icon-instagram.svg" alt="">
+            <a href="https://www.instagram.com/posse_programming/" target="_blank" rel="noopener noreferrer" class="p-sns__item__link" aria-label="instagram">
+              <img src="img/icon-instagram.svg" alt="">
+            </a>
           </li>
           <li class="header_nav_twitter">
-            <img src="img/icon-twitter.svg" alt="">
+            <a href="https://twitter.com/posse_program" target="_blank" rel="noopener     noreferrer" class="p-sns__item__link" aria-label="Twitter">
+              <img src="img/icon-twitter.svg" alt="">
+            </a>
           </li>
         </ul>
       </nav>
@@ -30,13 +34,20 @@
     <!-- 自己（チームメンバーがやる）紹介 -->
     <section class="introduce">
       <div class="introduce_content">
-        <div class="introduce_title">Introduce</div>
+        <h1 class="introduce_title">Introduce</h1>
+        <h2 class="introduce_title_h2">他己紹介</h2>
         <div class="introduce_picture">
           <img src="img/IMG_0512.JPG" alt="">
         </div>
         <div class="introduce_detail">
           <!-- ここに -->
-          <table></table>
+          <div class="name">岩城和輝</div>
+          <table class="introduce_table">
+            <tr><th>大学</th><td>慶應義塾大学</td></tr>
+            <tr><th>学部</th><td>経済学部</td></tr>
+            <tr><th>出身地</th><td>東京都</td></tr>
+            <tr><th>趣味</th><td>テニス</td></tr>
+          </table>
         </div>
       </div>
     </section>
