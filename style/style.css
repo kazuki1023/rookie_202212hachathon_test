@@ -27,7 +27,6 @@ ul {
 
 }
 
-
 .header_inner {
   margin-left: auto;
 }
@@ -74,6 +73,22 @@ ul {
   margin-top: 60px;
 }
 /* section hero */
+.hero {
+  position: relative;
+}
+.hero_name {
+  color: black;
+  font-size: 48px;
+  letter-spacing: var(--mainSpacing);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-family: Montserrat;
+  font-weight: 600;
+  font-style: italic;
+  z-index: 999;
+}
 .hero_content {
   background-color: rgba(255,255,255,0.7);
   background-blend-mode: lighten;
@@ -101,11 +116,20 @@ h6 {
   margin: 10px auto;
   font-weight: bold;
   color: #364e96;
-  padding: 0.5em 0;/*上下の余白*/
-  border-top: solid 3px #364e96;/*上線*/
-  border-bottom: solid 3px #364e96;/*下線*/
-  width: 30%;
+  width: 100%;
+  display: flex;
+  align-items: center;
 }
+
+.introduce_title:before,
+.introduce_title:after {
+    content: "";
+    height: 1px;
+    flex-grow: 1;
+    background-color: #364e96;
+    margin: 0 1em;
+}
+
 .introduce_title_h2 {
   color: #0000ff;
   text-align: center;
@@ -191,7 +215,8 @@ tr:nth-child(odd) {
   background-color: white;
 }
 tr:nth-child(even) {
-  background-color: rgb(51, 130, 210);
+  background-color: #9370DB;
+  color: #fff;
 }
 .introduce_table tr:hover{
   background-color: #001764;
@@ -220,12 +245,22 @@ tr:nth-child(even) {
   padding-top: 64px;
 }
 .why_title_h1 {
+  text-align: center;
+  font-size: 30px;
+  margin: 10px auto;
+  font-weight: bold;
   color: #364e96;
-  padding: 0.5em 0;/*上下の余白*/
-  border-top: solid 3px #364e96;/*上線*/
-  border-bottom: solid 3px #364e96;/*下線*/
-  width: 30%;
-  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.why_title_h1:before,
+.why_title_h1:after {
+  content: "";
+  height: 1px;
+  flex-grow: 1;
+  background-color: #364e96;
+  margin: 0 1em;
 }
 .why_title_h1,
 .why_title_h2 {
@@ -245,6 +280,7 @@ tr:nth-child(even) {
   background-size: cover;
   background-position: center;
   position: relative;
+  border-radius: 20px;
 }
 .why_content::before {
   background-color: rgba(0, 113, 188);
@@ -255,11 +291,18 @@ tr:nth-child(even) {
   top: 0;
   width: 100%;
   opacity: 0.8;
+  border-radius: 20px;
 }
 .why_content_h3 {
-  text-align: center;
-  margin-top: 5%;
-  color: rgb(50, 114, 165);
+  color: #fff;
+  font-size: 20px;
+  letter-spacing: var(--mainSpacing);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-style: italic;
+  z-index: 999;
 }
 .why_content_detail {
   margin: 0 auto;
@@ -271,14 +314,24 @@ tr:nth-child(even) {
   margin: 20px auto;
   text-align: center;
   color: #364e96;
-  padding: 0.5em 0;/*上下の余白*/
-  border-top: solid 3px #364e96;/*上線*/
-  border-bottom: solid 3px #364e96;/*下線*/
-  width: 50%;
+  width: 100%;
 }
 .posse_title_h1 {
   text-align: center;
-  /* margin-bottom: 10px; */
+  font-size: 30px;
+  margin: 10px auto;
+  font-weight: bold;
+  color: #364e96;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.posse_title_h1:before, .posse_title_h1:after {
+  content: "";
+  height: 1px;
+  flex-grow: 1;
+  background-color: #364e96;
+  margin: 0 1em;
 }
 .posse_content {
   border: solid 1px black;
