@@ -96,6 +96,9 @@ ul {
 .hero_img {
   width: 100%;
   opacity: 0.4;
+  height: 300px;
+  object-fit: cover;
+  object-position: 0% 5%;
 }
 /* section introduce */
 h1,
