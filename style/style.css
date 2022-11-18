@@ -172,7 +172,6 @@ ul, ol {
   font-family: Montserrat;
   font-weight: 600;
   font-style: italic;
-  z-index: 999;
 }
 .hero_content {
   background-color: rgba(255,255,255,0.7);
@@ -207,6 +206,9 @@ h6 {
   width: 100%;
   display: flex;
   align-items: center;
+  background: -webkit-linear-gradient(left, #1818cb, #0fe748);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .introduce_title:before,
@@ -286,7 +288,8 @@ h6 {
 .name {
   text-align: center;
   font-size: 25px;
-  margin: 5px 0 15px 0;
+  margin: 15px 0 40px 0;
+  font-weight: bold;
 }
 .introduce_table {
   margin: 0 auto;
@@ -303,12 +306,12 @@ tr:nth-child(odd) {
   background-color: white;
 }
 tr:nth-child(even) {
-  background-color: #9370DB;
+  background-color: #0071bc;
   color: #fff;
 }
 .introduce_table tr:hover{
-  background-color: #001764;
-  color: #d4041c;
+  background-color: #adadad;
+  color: #0000ff;
 }
 .introduce_table th:after {
   display: block;
@@ -341,6 +344,9 @@ tr:nth-child(even) {
   width: 100%;
   display: flex;
   align-items: center;
+  background: -webkit-linear-gradient(left, #1818cb, #0fe748);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .why_title_h1:before,
 .why_title_h1:after {
@@ -417,11 +423,18 @@ tr:nth-child(even) {
   font-size: 20px;
 }
 /* posseの一押しポイントの作成 */
+.posse {
+  display: block;
+  bottom: 10px;
+}
 .posse_title {
   margin: 20px auto;
   text-align: center;
   color: #364e96;
   width: 100%;
+  background: -webkit-linear-gradient(left, #0808de, #0fe748);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .posse_title_h1 {
   text-align: center;
@@ -445,6 +458,7 @@ tr:nth-child(even) {
   width: 70%;
   height: 400px;
   margin: 0 auto;
+  display: block;
 }
 
 /* footerのライン */
