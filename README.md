@@ -4,7 +4,7 @@
 
 - [x] posseのロゴを左に置く
 - [x] posseのロゴを押すとposse公式サイトへ飛ぶ
-- [ ] posseのロゴの下（ただし、headerもおさまるように）に「posse公式サイトはこちら」の文字を入れる
+- [x] posseのロゴの下（ただし、headerもおさまるように）に「posse公式サイトはこちら」の文字を入れる
 - [x] instagramに飛ぶ
 - [x] instagramのロゴを挿入
 - [x] instagramのロゴを丸ボーダーで囲む
