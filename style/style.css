@@ -124,13 +124,19 @@ h6 {
   align-items: center;
 }
 
-.introduce_title:before,
+.introduce_title:before {
+  content: "";
+  height: 1px;
+  flex-grow: 1;
+  background-color: #364e96;
+  margin: 0 1em 0 4em;
+}
 .introduce_title:after {
-    content: "";
-    height: 1px;
-    flex-grow: 1;
-    background-color: #364e96;
-    margin: 0 1em;
+  content: "";
+  height: 1px;
+  flex-grow: 1;
+  background-color: #364e96;
+  margin: 0 4em 0 1em;
 }
 
 .introduce_title_h2 {
@@ -257,13 +263,19 @@ tr:nth-child(even) {
   display: flex;
   align-items: center;
 }
-.why_title_h1:before,
+.why_title_h1:before {
+  content: "";
+  height: 1px;
+  flex-grow: 1;
+  background-color: #364e96;
+  margin: 0 1em 0 4em;
+}
 .why_title_h1:after {
   content: "";
   height: 1px;
   flex-grow: 1;
   background-color: #364e96;
-  margin: 0 1em;
+  margin: 0 4em 0 1em;
 }
 .why_title_h1,
 .why_title_h2 {
@@ -329,12 +341,19 @@ tr:nth-child(even) {
   display: flex;
   align-items: center;
 }
-.posse_title_h1:before, .posse_title_h1:after {
+.posse_title_h1:before {
   content: "";
   height: 1px;
   flex-grow: 1;
   background-color: #364e96;
-  margin: 0 1em;
+  margin: 0 1em 0 4em;
+}
+.posse_title_h1:after {
+  content: "";
+  height: 1px;
+  flex-grow: 1;
+  background-color: #364e96;
+  margin: 0 4em 0 1em;
 }
 .posse_content {
   border: solid 1px black;
