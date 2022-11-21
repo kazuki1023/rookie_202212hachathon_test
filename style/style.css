@@ -423,7 +423,7 @@ tr:nth-child(even) {
 }
 .why_content_detail_text {
   display: block;
-  width: 30%;
+  width: 70%;
   align-items: center;
   text-align: center;
   left: 50%;
