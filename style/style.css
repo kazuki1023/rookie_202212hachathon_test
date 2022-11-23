@@ -134,8 +134,8 @@ ul, ol {
 .header_nav_instagram,
 .header_nav_twitter {
   display: flex;
-  border: solid 1px #adadad;
-  border-radius: 50%;
+  /* border: solid 1px #adadad; */
+  /* border-radius: 50%; */
   width: 50px;
   height: 50px;
   text-align: center;
@@ -179,7 +179,7 @@ ul, ol {
 }
 .hero_img {
   width: 100%;
-  /* opacity: 0.4; */
+  opacity: 0.4;
   height: 300px;
   object-fit: cover;
   object-position: 0% 5%;
@@ -322,7 +322,7 @@ tr:nth-child(even) {
 .introduce_table tr:hover{
   background-color: #adadad;
   color: #0000ff;
-}
+} */
 .introduce_table th:after {
   display: block;
   content: "";
@@ -332,7 +332,7 @@ tr:nth-child(even) {
   position: absolute;
   top:calc(50% - 1px);
   right:-15px;
-} */
+}
 .introduce_table th,.introduce_table td{
   position: relative;
   text-align: center;
@@ -391,9 +391,9 @@ tr:nth-child(even) {
   background-size: cover;
   background-position: center;
   position: relative;
-  /* border-radius: 20px; */
+  border-radius: 20px;
 }
-/* .why_content::before {
+.why_content::before {
   background-color: rgba(0, 113, 188);
   content: "";
   height: 100%;
@@ -403,7 +403,7 @@ tr:nth-child(even) {
   width: 100%;
   opacity: 0.8;
   border-radius: 20px;
-} */
+}
 .why_content_h3 {
   color: #fff;
   font-size: 20px;
