@@ -1,107 +1,52 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=, initial-scale=1.0">
-  <title>新人ハッカソン製作物見本</title>
-  <link rel="stylesheet" href="./style/normalize.css">
-  <link rel="stylesheet" href="./style/style.css">
-</head>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POSSE 初めてのWeb制作</title>
+    <!-- スタイルシート読み込み -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- Google Fonts読み込み -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Plus+Jakarta+Sans:wght@400;700&display=swap"
+      rel="stylesheet">
+  </head>
+
 <body>
-  <header class="header">
-    <div class="header_logo">
-      <a href="https://posse-ap.com/" target="_blank" rel="noopener noreferrer" class="p-sns__item__link" aria-label="posse">
-        <img src="img/logo.svg" alt="">
-        <div class="posse_official">↑POSSE公式サイトはこちら</div>
-      </a>
-    </div>
-    <div class="header_inner">
-      <nav class="header_nav">
-        <ul class="header_sns">
-          <li class="header_nav_item">
-            <a href="#introduce" class="header_nav_item_link">introduce</a>
-          </li>
-          <li class="header_nav_item">
-            <a href="#why" class="header_nav_item_link">why</a>
-          </li>
-          <li class="header_nav_item">
-            <a href="#posse-event" class="header_nav_item_link">posseの一押しイベント</a>
-          </li>
-          <li class="header_nav_instagram">
-            <a href="https://www.instagram.com/posse_programming/" target="_blank" rel="noopener noreferrer" class="p-sns__item__link" aria-label="instagram">
-              <img src="img/icon-instagram.svg" alt="instagram" class="header_nav_sns_img">
-            </a>
-          </li>
-          <li class="header_nav_twitter">
-            <a href="https://twitter.com/posse_program" target="_blank" rel="noopener     noreferrer" class="p-sns__item__link" aria-label="Twitter">
-              <img src="img/icon-twitter.svg" alt="twitter" class="header_nav_sns_img">
-            </a>
-          </li>
-        </ul>
-      </nav>
-    </div>
+  <header class="l-header p-header">
+    <div class="p-header__logo"><img src="./img/logo.svg" alt="POSSE"></div>
   </header>
-  <main class="main">
-    <section class="hero">
-      <h1 class="hero_name">Iwaki Kazuki</h1>
-      <div class="hero_content">
-        <img src="./img/LINE_ALBUM_221117_0.jpg" alt="" class="hero_img">
+  <h1 class="p-title">新ハ運営</h1>
+  <section class="section-news" id="news">
+    <div class="item-list">
+      <div class="item">
+        <figure class="image"><img src="./img/img-news01.jpg" alt=""></figure>
+        <p class="l-title">Kazu</p>
+        <p class="description">経済学部</p>
+        <a href="./main/index.html" class="todo">詳細ページへ移動</a>
       </div>
-    </section>
-    <!-- 自己（チームメンバーがやる）紹介 -->
-    <section class="introduce" id="introduce">
-      <div class="introduce_content">
-          <div class="introduce_title">Introduce</div>
-          <h2 class="introduce_title_h2">他己紹介</h2>
-          <div class="introduce_picture">
-            <div href="" class="image_box hover">
-              <img src="img/IMG_0512.JPG" alt="peace_sign" class="img_1">
-              <img src="img/IMG_9619.jpg" alt="sleep" class="img_2">
-            </div>
-          </div>
-        <div class="introduce_detail">
-          <!-- ここに -->
-          <div class="name">岩城和輝</div>
-          <table class="introduce_table">
-            <tr><th>大学</th><td>慶應義塾大学</td></tr>
-            <tr><th>学部</th><td>経済学部</td></tr>
-            <tr><th>誕生日</th><td>2003/10/23</td></tr>
-            <tr><th>趣味</th><td>テニス</td></tr>
-            <tr><th>サークル</th><td>TLA（テニスサークル）</td></tr>
-            <tr><th>バイト</th><td>テニススクール、塾講</td></tr>
-          </table>
-        </div>
+      <div class="item">
+        <figure class="image"><img src="./img/img-news02.jpg" alt=""></figure>
+        <p class="l-title">Michiko</p>
+        <p class="description">経営学部</p>
+        <a href="./main/index.html" class="todo">詳細ページへ移動</a>
       </div>
-    </section>
-    <!-- Why なぜposseに入ったかの紹介 -->
-    <section class="why" id="why">
-      <div class="why_title">
-        <h1 class="why_title_h1">Why</h1>
-        <h2 class="why_title_h2">なぜ私はposseに</h2>
+      <div class="item">
+        <figure class="image"><img src="./img/img-news03.jpg" alt=""></figure>
+        <p class="l-title">Arisa</p>
+        <p class="description">理工学部</p>
+        <a href="./main/index.html" class="todo">詳細ページへ移動</a>
       </div>
-      <div class="why_content">
-        <!-- <h3 class="why_content_h3">だから私はposse</h3> -->
-          <p class="why_content_detail_text">これは間違いなくharborsです。ここにいけば、誰かしら先輩がいます。そのため分からないことがあったらすぐに教えてもらえるのだ。そしてなんと、家庭教師常時利用可能という特権に加え、我々はあのharbors に泊まることができるのである。未だかつてあの港区表参道に月2万円で借りれる家があるだろうか。そんなものはない。先輩にいつでも教えを乞うことができるだけでも十分月2万円の価値はあるのに、あの渋谷駅へのアクセスの良い表参道に泊まれるのだ。これ以上の押しポイントが果たしてあるのだろうか</p>
+      <div class="item">
+        <figure class="image"><img src="./img/img-news03.jpg" alt=""></figure>
+        <p class="l-title">Gaku</p>
+        <p class="description">理工学部</p>
+        <a href="./main/index.html" class="todo">詳細ページへ移動</a>
       </div>
-    </section>
-    <!-- posseの推しポイントの作成 -->
-    <section class="posse" id="posse-event">
-      <div class="posse_title">
-        <h1 class="posse_title_h1">POSSEの一押しポイント</h1>
-      </div>
-      <div class="posse_content"></div>
-    </section>
-  </main>
-  <footer>
-    <div class="p-fixedLine">
-      <a href="https://line.me/R/ti/p/@651htnqp?from=page" target="_blank" rel="noopener noreferrer"
-        class="p-fixedLine__link">
-        <img class="u-icon__line" src="./img/icon-line.svg"></img>
-        <p class="p-fixedLine__link__text"><span class="u-sp-hidden">POSSE</span>公式LINEで<br>最新情報をGET！</p>
-        <img class="u-icon__link" src="./img/icon-link-gray-dark.svg"></img>
-      </a>
     </div>
-  </footer>
+  </section>
 </body>
 </html>
