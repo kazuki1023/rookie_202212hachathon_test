@@ -14,7 +14,7 @@ html {
 
 body {
   margin: 0;
-  font-family: "Noto Sans JP", sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
 }
 
 main {
@@ -88,20 +88,22 @@ ul, ol {
   margin: 0;
   padding: 0;
 }
+.wf-sawarabimincho { 
+  font-family: 'Noto Sans JP', sans-serif;
+ }
 /* header */
 .header {
   align-items: center;
-  background-color: #f3f3f3;
+  background-color: rgb(214, 228, 234);
   /* background:  linear-gradient(90deg,#000000, ); */
-  
   display: flex;
   padding: 15px 24px;
   z-index: 100;
   position: fixed;
   width: 100%;
   box-sizing: border-box;
-  margin-top: -60px;
-  height: 64px;
+  margin-top: -80px;
+  height: 88px;
 }
 .header_logo {
   width: 148px;
@@ -109,8 +111,8 @@ ul, ol {
 }
 .posse_official {
   font-size: 10px;
-  color: #0000ff;
-  margin-top: 2px;
+  color: #626299;
+  margin-top: 10px;
 
 }
 
@@ -132,6 +134,10 @@ ul, ol {
   align-items: center;
   justify-content: center;
   font-weight: bold;
+  padding-left: 13px;
+}
+.header_nav_item_link:hover{
+  color:rgb(139, 150, 197);
 }
 .header_nav_instagram,
 .header_nav_twitter {
@@ -145,8 +151,8 @@ ul, ol {
   align-items: center;
   justify-content: center;
 }
-.header_nav_sns_img {
-}
+/* .header_nav_sns_img {
+} */
 
 
 .header_sns {
@@ -157,24 +163,25 @@ ul, ol {
 /* main */
 .main {
   height: 100%;
-  margin-top: 60px;
-  background: linear-gradient(90deg,#000000, #333333); 
+  margin-top: 80px;
+  background: rgba(214, 221, 234, 0.4); 
 }
 /* section hero */
 .hero {
   position: relative;
 }
+
 .hero_name {
-  color: black;
-  font-size: 48px;
+  color: #364e96;
+  font-size: 78px;
   letter-spacing: var(--mainSpacing);
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
-  font-family: Montserrat;
-  font-weight: 600;
-  font-style: italic;
+  font-weight: 900;
+  font-family: 'Work Sans', sans-serif;
+  
 }
 .hero_content {
   background-color: #fff;
@@ -203,22 +210,24 @@ h6 {
 }
 .introduce_title {
   text-align: center;
-  font-size: 30px;
-  margin: 10px auto;
+  color: #187fc4;
+  font-size: 40px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  margin-left: auto;
   font-weight: bold;
-  color: #364e96;
   width: 100%;
   display: flex;
   align-items: center;
-  background: -webkit-linear-gradient(left, #1e90ff, #008080);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  /* background: -webkit-linear-gradient(left,#0b355f, #008080); */
+  /* -webkit-background-clip: text; */
+  /* -webkit-text-fill-color: transparent; */
 }
 
 .introduce_title:before {
   content: "";
   height: 1px;
-  flex-grow: 1;
+  flex-grow: 0.2;
   background-color: #364e96;
   margin: 0 1em 0 4em;
 }
@@ -231,9 +240,9 @@ h6 {
 }
 
 .introduce_title_h2 {
-  color: #f0e68c;
+  color: #59C3E1;
   text-align: center;
-  font-size: 25px;
+  font-size: 40px;
   margin-bottom: 20px;
 
 }
@@ -299,10 +308,10 @@ h6 {
 /* imgのアニメーション 終わり */
 .name {
   text-align: center;
-  font-size: 25px;
+  font-size: 35px;
   margin: 15px 0 40px 0;
   font-weight: bold;
-  color: #fff
+  color:  #187fc4;
 }
 .introduce_table {
   margin: 0 auto;
@@ -310,6 +319,9 @@ h6 {
   border-spacing: 0;
   width: 40%;
   background-color: #ddd;
+}
+.introduce_body{
+  border-radius: 18px;
 }
 .introduce_table tr {
   /* border-bottom: solid 1px #ddd; */
@@ -319,11 +331,11 @@ tr:nth-child(odd) {
   background-color: white;
 }
 tr:nth-child(even) {
-  background-color: #0071bc;
+  background-color: #5a94bb;
   color: #fff;
 }
 .introduce_table tr:hover{
-  background-color: #adadad;
+  background-color:rgb(168, 212, 231);
   color: #0000ff;
 }
 .introduce_table th:after {
@@ -350,21 +362,21 @@ tr:nth-child(even) {
 }
 .why_title_h1 {
   text-align: center;
-  font-size: 30px;
+  font-size: 40px;
   margin: 10px auto;
   font-weight: bold;
-  color: #364e96;
+  color: #187fc4;
   width: 100%;
   display: flex;
   align-items: center;
-  background: -webkit-linear-gradient(left, #1e90ff, #008080);
+  /* background: -webkit-linear-gradient(left, #1e90ff, #008080);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent; */
 }
 .why_title_h1:before {
   content: "";
   height: 1px;
-  flex-grow: 1;
+  flex-grow: 0.3;
   background-color: #364e96;
   margin: 0 1em 0 4em;
 }
@@ -382,12 +394,14 @@ tr:nth-child(even) {
 }
 .why_title_h2 {
   margin-top: 10px;
-  color: #f0e68c;
+  margin-bottom: 20px;
+  font-size: 30px;
+  color: #387f92;
 }
 .why_content {
   width: 70%;
   height: 400px;
-  border: solid 1px black;
+  border: none;
   margin: 30px auto 50px auto;
   background-image: url(../img/LINE_ALBUM_221117.jpg);
   background-size: cover;
@@ -434,12 +448,13 @@ tr:nth-child(even) {
   align-items: center;
   text-align: center;
   left: 50%;
-  top: 40%;
+  top: 50%;
   transform: translate(-50%, -50%);
   position: absolute;
   overflow-wrap:  break-word;
   color: #fff;
   font-size: 20px;
+  line-height: 30px;
 }
 /* posseの一押しポイントの作成 */
 .posse {
@@ -447,21 +462,20 @@ tr:nth-child(even) {
   bottom: 10px;
 }
 .posse_title {
-  margin: 20px auto;
+  margin: 50px auto;
   text-align: center;
-  color: #364e96;
   width: 100%;
   /* background: -webkit-linear-gradient(left, #0808de, #0fe748); */
-  background: -webkit-linear-gradient(left, #1e90ff, #008080);
+  /* background: -webkit-linear-gradient(left, #1e90ff, #008080);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent; */
 }
 .posse_title_h1 {
   text-align: center;
-  font-size: 30px;
+  font-size: 40px;
   margin: 10px auto;
   font-weight: bold;
-  color: #364e96;
+  color: #187fc4;
   width: 100%;
   display: flex;
   align-items: center;
@@ -469,7 +483,7 @@ tr:nth-child(even) {
 .posse_title_h1:before {
   content: "";
   height: 1px;
-  flex-grow: 1;
+  flex-grow: 0.3;
   background-color: #364e96;
   margin: 0 1em 0 4em;
 }
@@ -481,7 +495,8 @@ tr:nth-child(even) {
   margin: 0 4em 0 1em;
 }
 .posse_content {
-  border: solid 1px black;
+  border: solid 1px #364e96;
+  border-radius: 10px;
   width: 70%;
   height: 400px;
   margin: 0 auto;
@@ -498,7 +513,7 @@ tr:nth-child(even) {
 }
 .p-fixedLine__link {
   align-items: center;
-  background-color: #5FDF5B;
+  background-color: #75eb71;
   display: flex;
   padding: 22px 20px 22px 24px;
 }
@@ -642,3 +657,4 @@ tr:nth-child(even) {
   top: 50%;
   transform: translate(0, -50%);
 }
+
