@@ -15,6 +15,7 @@ html {
 body {
   margin: 0;
   font-family: "Noto Sans JP", sans-serif;
+  background-color: black;
 }
 
 main {
@@ -100,6 +101,7 @@ ul, ol {
   box-sizing: border-box;
   margin-top: -60px;
   height: 64px;
+  background-color: black;
 }
 .header_logo {
   width: 148px;
@@ -107,9 +109,8 @@ ul, ol {
 }
 .posse_official {
   font-size: 10px;
-  color: #0000ff;
+  color: #65e7cb;
   margin-top: 2px;
-
 }
 
 .header_inner {
@@ -124,12 +125,13 @@ ul, ol {
 }
 .header_nav_item_link {
   display: flex;
-  color: #696969;
   text-decoration: none;
   font-size: 15px;
   align-items: center;
   justify-content: center;
   font-weight: bold;
+  color: #65e7cb;
+  font-family: cursive;
 }
 .header_nav_instagram,
 .header_nav_twitter {
@@ -156,6 +158,7 @@ ul, ol {
 .main {
   height: 1000px;
   margin-top: 60px;
+  background-color: black;
 }
 /* section hero */
 .hero {
@@ -196,6 +199,7 @@ h6 {
 .introduce {
   padding-top: 64px;
   margin-top:-64px;
+  background-color: black;
 }
 .introduce_title {
   text-align: center;
@@ -206,28 +210,29 @@ h6 {
   width: 100%;
   display: flex;
   align-items: center;
-  background: -webkit-linear-gradient(left, #1818cb, #0fe748);
+  background: -webkit-linear-gradient(left, #65dae7, #65e7cb);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-family: cursive;
 }
 
 .introduce_title:before {
   content: "";
   height: 1px;
   flex-grow: 1;
-  background-color: #364e96;
+  background: -webkit-linear-gradient(left, #1818cb, #65dae7);
   margin: 0 1em 0 4em;
 }
 .introduce_title:after {
   content: "";
   height: 1px;
   flex-grow: 1;
-  background-color: #364e96;
+  background: -webkit-linear-gradient(left, #65e7cb, #5FDF5B);
   margin: 0 4em 0 1em;
 }
 
 .introduce_title_h2 {
-  color: #0000ff;
+  color: #65e7cb;
   text-align: center;
   font-size: 25px;
   margin-bottom: 20px;
@@ -311,22 +316,22 @@ h6 {
   cursor: pointer;
 }
 tr:nth-child(odd) {
-  background-color: white;
+  background-color: #65e7cb;
 }
 tr:nth-child(even) {
-  background-color: #0071bc;
-  color: #fff;
+  background-color: #65dae7;
+  color: black;
 }
 .introduce_table tr:hover{
-  background-color: #adadad;
-  color: #0000ff;
+  background-color: rgb(0, 96, 249);
+  color: black;
 }
 .introduce_table th:after {
   display: block;
   content: "";
   width: 30px;
   height: 2px;
-  background-color: #fad204;
+  background-color: #bae333;
   position: absolute;
   top:calc(50% - 1px);
   right:-15px;
@@ -340,8 +345,9 @@ tr:nth-child(even) {
 
 /* why なぜ私はposseに？ */
 .why {
-  margin-top: 30px;
+
   padding-top: 64px;
+  background-color: black;
 }
 .why_title_h1 {
   text-align: center;
@@ -352,7 +358,7 @@ tr:nth-child(even) {
   width: 100%;
   display: flex;
   align-items: center;
-  background: -webkit-linear-gradient(left, #1818cb, #0fe748);
+  background: -webkit-linear-gradient(left, #65dae7, #65e7cb);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -360,24 +366,25 @@ tr:nth-child(even) {
   content: "";
   height: 1px;
   flex-grow: 1;
-  background-color: #364e96;
+  background: -webkit-linear-gradient(left, #1818cb, #65dae7);
   margin: 0 1em 0 4em;
 }
 .why_title_h1:after {
   content: "";
   height: 1px;
   flex-grow: 1;
-  background-color: #364e96;
+  background: -webkit-linear-gradient(left, #65e7cb, #5FDF5B);
   margin: 0 4em 0 1em;
 }
 .why_title_h1,
 .why_title_h2 {
   margin-top: 20px;
   text-align: center;
+  font-family: cursive;
 }
 .why_title_h2 {
   margin-top: 10px;
-  color: #0000ff;
+  color: #65e7cb;
 }
 .why_content {
   width: 70%;
@@ -391,7 +398,7 @@ tr:nth-child(even) {
   border-radius: 20px;
 }
 .why_content::before {
-  background-color: rgba(0, 113, 188);
+  background-color: #65e7cb;
   content: "";
   height: 100%;
   left: 0;
@@ -416,7 +423,7 @@ tr:nth-child(even) {
 }
 .why_content_detail {
   position: relative;
-  color: #fff;
+  color: black;
   font-size: 20px;
   font-style: italic;
   text-align: center;
@@ -433,7 +440,7 @@ tr:nth-child(even) {
   transform: translate(-50%, -50%);
   position: absolute;
   overflow-wrap:  break-word;
-  color: #fff;
+  color: black;
   font-size: 20px;
 }
 /* posseの一押しポイントの作成 */
@@ -444,9 +451,8 @@ tr:nth-child(even) {
 .posse_title {
   margin: 20px auto;
   text-align: center;
-  color: #364e96;
   width: 100%;
-  background: -webkit-linear-gradient(left, #0808de, #0fe748);
+  background: -webkit-linear-gradient(left, #65dae7, #65e7cb);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -464,14 +470,14 @@ tr:nth-child(even) {
   content: "";
   height: 1px;
   flex-grow: 1;
-  background-color: #364e96;
+  background: -webkit-linear-gradient(left, #1818cb, #5ce4f3);
   margin: 0 1em 0 4em;
 }
 .posse_title_h1:after {
   content: "";
   height: 1px;
   flex-grow: 1;
-  background-color: #364e96;
+  background: -webkit-linear-gradient(left, #65e7cb, #5FDF5B);
   margin: 0 4em 0 1em;
 }
 .posse_content {
@@ -502,7 +508,7 @@ tr:nth-child(even) {
   background-blend-mode: lighten;
 }
 .p-fixedLine__link .u-icon__link {
-  color: #fff;
+  filter: invert(100%) sepia(0%) saturate(11%) hue-rotate(143deg) brightness(101%) contrast(93%);
   font-size: 18px;
   margin-left: 35px
 }
@@ -510,7 +516,7 @@ tr:nth-child(even) {
   color: #fff;
 }
 .p-fixedLine__link__text {
-  color: #fff;
+  color: black;
   font-size: 14px;
   font-weight: bold;
   letter-spacing: 0.14em;
@@ -561,7 +567,7 @@ tr:nth-child(even) {
 }
 .p-sns__item__link {
   align-items: center;
-  border: solid 1px #eee;
+  /* border: solid 1px #eee; */
   border-radius: 50%;
   color: #adadad;
   display: inline-flex;
