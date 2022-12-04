@@ -228,7 +228,8 @@ h6 {
 .introduce_title:before {
   content: "";
   height: 1px;
-  flex-grow: 0.2;
+  flex-grow: 1
+  ;
   background-color: #364e96;
   margin: 0 1em 0 4em;
 }
@@ -377,7 +378,7 @@ tr:nth-child(even) {
 .why_title_h1:before {
   content: "";
   height: 1px;
-  flex-grow: 0.3;
+  flex-grow: 1;
   background-color: #364e96;
   margin: 0 1em 0 4em;
 }
@@ -484,7 +485,7 @@ tr:nth-child(even) {
 .posse_title_h1:before {
   content: "";
   height: 1px;
-  flex-grow: 0.3;
+  flex-grow: 1;
   background-color: #364e96;
   margin: 0 1em 0 4em;
 }
