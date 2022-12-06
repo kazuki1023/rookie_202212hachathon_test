@@ -122,6 +122,14 @@ ul, ol {
   display: flex;
   gap: 25px;
 }
+
+.header_nav_item a:hover {
+  letter-spacing: 0.2rem;
+  opacity: 1;
+  transition: 0.5s;
+  font-size: 20px;
+}
+
 .header_nav_item_link {
   display: flex;
   color: #696969;
